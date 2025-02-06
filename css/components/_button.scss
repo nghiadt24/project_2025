@@ -16,3 +16,21 @@
     gap: 8px;
     border-radius: 100px;
 }
+.SecondaryBtn {
+    @include color-border-neutral-strong;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+    @include color-content-neutral-strong;
+    padding: 8px 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 100px;
+}
+.btn-icon {
+    font-size: 20px;
+}
