@@ -1,0 +1,66 @@
+// import
+
+@import './color';
+
+//  Content
+
+@mixin color-content-neutral-strong {
+    color: $color-neutral-950;
+  }
+  @mixin color-content-neutral-medium {
+    color: $color-neutral-500;
+  }
+  @mixin color-content-neutral-light {
+    color: $color-neutral-300;
+  }
+  @mixin color-content-white {
+    color: $color-neutral-0;
+  }
+  
+  //  Background
+  
+  @mixin color-bg-white {
+    background-color: $color-neutral-0;
+  }
+  @mixin color-bg-gray {
+    background-color: $color-neutral-50;
+  }
+  @mixin color-bg-neutral-strong {
+    background-color: $color-neutral-950;
+  }
+  @mixin color-bg-neutral-medium {
+    background-color: $color-neutral-500;
+  }
+  @mixin color-bg-neutral-light {
+    background-color: $color-neutral-100;
+  }
+  
+  //  border
+  
+  @mixin color-border-neutral-light {
+    border: 1px solid $color-neutral-300;
+  }
+  @mixin color-border-neutral-medium {
+    border: 1px solid $color-neutral-500;
+  }
+  @mixin color-border-neutral-strong {
+    border: 1px solid $color-neutral-950;
+  }
+  @mixin color-border-white {
+    border: 1px solid $color-neutral-0;
+  }
+  
+  //  Icon
+  
+  @mixin color-icon-neutral-light {
+    color: $color-neutral-300;
+  }
+  @mixin color-icon-neutral-medium {
+    color: $color-neutral-500;
+  }
+  @mixin color-icon-neutral-strong {
+    color: $color-neutral-950;
+  }
+  @mixin color-icon-white {
+    color: $color-neutral-0;
+  }

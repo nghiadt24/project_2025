@@ -1,0 +1,6 @@
+@import '/css/variables/color';
+@import '/css/variables/mixins';
+
+.PrimaryBtn {
+    @include color-bg-neutral-strong;
+}
