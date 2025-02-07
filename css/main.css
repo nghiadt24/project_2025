@@ -27,6 +27,7 @@
   display: flex;
   justify-content: center;
   gap: 8px;
+  background-color: #fff;
   border-radius: 100px;
 }
 
@@ -36,11 +37,71 @@
 
 .TextBtn {
   color: #292929;
-  ont-size: 28px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
   text-decoration: underline;
+}
+
+.FooterTextBtn {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration: underline;
+}
+
+.main-nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 42px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 24px;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #7c7c7c;
+  z-index: 1000;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  transition: 0.3s ease;
+}
+.nav-items:hover {
+  gap: 32px;
+}
+
+.divider {
+  width: 1px;
+  height: 41px;
+  background: #d9d9d9;
+}
+
+.NavLink {
+  font-size: 24px;
+  display: flex;
+  text-decoration: none;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  color: #292929;
+  transition: 0.3s ease;
+}
+.NavLink:hover {
+  background-color: #efefef;
+  border-radius: 16px;
 }
 
 *,
@@ -190,7 +251,6 @@ table {
 }
 
 .row::after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -251,6 +311,10 @@ table {
     max-width: 90rem;
   }
 }
+.width-100 {
+  width: 100%;
+}
+
 html {
   font-family: "BT Beau Sans", sans-serif;
 }
@@ -311,7 +375,7 @@ html {
 
 .AboutTitle {
   color: #292929;
-  font-size: 20px;
+  font-size: 28px;
   text-align: left;
   line-height: 40px;
   font-weight: 400;
@@ -320,9 +384,9 @@ html {
 
 .AboutDescription {
   color: #292929;
-  font-size: 18px;
+  font-size: 24px;
   text-align: right;
-  line-height: 34px;
+  line-height: 40px;
   font-weight: 400;
   font-style: normal;
   width: 100%;
@@ -439,7 +503,7 @@ html {
 
 .GalleryTitle {
   color: #292929;
-  font-size: 20px;
+  font-size: 28px;
   text-align: left;
   line-height: 40px;
   font-weight: 400;
@@ -461,6 +525,7 @@ html {
   gap: 16px;
   text-decoration: none;
   width: 100%;
+  height: 70vh;
 }
 
 .GalleryCardTextWrap {
@@ -496,4 +561,86 @@ html {
   font-weight: 300;
   font-style: normal;
   text-decoration: none;
+}
+
+.MainFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 32px;
+  padding: 64px 0px;
+  background-color: #292929;
+}
+
+.FooterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  gap: 48px;
+}
+
+.FooterTitleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.FooterTitleWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 32px;
+  width: 100%;
+}
+
+.FooterTitleText {
+  color: #fff;
+  font-size: 42px;
+  line-height: 58px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.FooterContactBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.FooterBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+.VerticalDivInverse {
+  background-color: #D9D9D9;
+  height: 1px;
+  width: 100%;
+}
+
+.FooterCopyRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FooterCopyRightText {
+  color: #dcdcdc;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: normal;
 }/*# sourceMappingURL=main.css.map */

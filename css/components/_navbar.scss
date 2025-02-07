@@ -1,0 +1,53 @@
+@import '../variables/color';
+@import '../variables/mixins';
+
+.main-nav {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 42px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 24px;
+    border-radius: 16px;
+    @include color-bg-white;
+    @include color-border-neutral-medium;
+    z-index: 1000;
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    transition: 0.3s ease;
+    &:hover {
+      gap: 32px;
+    }
+  }
+  .divider {
+    width: 1px;
+    height: 41px;
+    background: #d9d9d9;
+  }
+  @mixin NavLink {
+    font-size: 24px;
+    display: flex;
+    text-decoration: none;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+    background-color: $color-neutral-0;
+    @include color-icon-neutral-strong;
+    transition: 0.3s ease;
+    &:hover {
+      background-color: $color-neutral-100;
+      border-radius: 16px;
+    }
+  }
+  .NavLink {
+    @include NavLink();
+  }

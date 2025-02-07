@@ -145,7 +145,6 @@ table {
 }
 
 .row::after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -206,6 +205,10 @@ table {
     max-width: 90rem;
   }
 }
+.width-100 {
+  width: 100%;
+}
+
 html {
   font-family: "BT Beau Sans", sans-serif;
 }/*# sourceMappingURL=base.css.map */

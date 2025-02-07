@@ -17,5 +17,17 @@ gsap.ticker.add((time) => {
 
 // Disable lag smoothing in GSAP to prevent any delay in scroll animations
 gsap.ticker.lagSmoothing(0);
+const ScaleEffect = gsap.to('.HeroVideo',{
+    scale: 1.2
+})
+ ScrollTrigger.create ({
+        trigger: '.HeroVideoRow',
+        markers: true,
+        start: "top center",
+        end: "bottom bottom",
+        scrub: true,
+        animation: ScaleEffect,
+        duration: 1,
+    })
 
    });
