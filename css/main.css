@@ -34,6 +34,15 @@
   font-size: 20px;
 }
 
+.TextBtn {
+  color: #292929;
+  ont-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration: underline;
+}
+
 *,
 *::before,
 *::after {
@@ -288,6 +297,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: start;
+  gap: 32px;
+  padding: 120px 0px;
 }
 
 .AboutTitleRow {
@@ -323,4 +334,160 @@ html {
   justify-content: end;
   align-items: center;
   width: 100%;
+}
+
+.AboutContactRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin: 42px 0px;
+}
+
+.AboutContactButton {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+.VerticalDiv {
+  background-color: #D9D9D9;
+  height: 1px;
+  width: 100%;
+}
+
+.AboutServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 24px;
+  width: 100%;
+}
+
+.AboutServicesTitleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.AboutServicesCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+}
+
+.ServicesCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 32px;
+  border: 1px solid #292929;
+  padding: 24px 24px;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.ServicesCardIcon {
+  font-size: 24px;
+  color: #fff;
+  background-color: #292929;
+  padding: 12px 12px;
+  border-radius: 100px;
+}
+
+.ServicesTextWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+}
+
+.ServicesCardTitle {
+  color: #292929;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ServicesCardDescription {
+  color: #292929;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.GallerySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 32px;
+  padding: 64px 0px;
+}
+
+.GalleryTitle {
+  color: #292929;
+  font-size: 20px;
+  text-align: left;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.GalleryCardWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 16px;
+}
+
+.GalleryCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.GalleryCardTextWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.GalleryCardImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.GalleryCardTitle {
+  color: #292929;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.GalleryCardDescription {
+  color: #292929;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

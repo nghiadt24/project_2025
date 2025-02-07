@@ -34,3 +34,14 @@
 .btn-icon {
     font-size: 20px;
 }
+
+// TextBtn 
+
+.TextBtn {
+    @include color-content-neutral-strong;
+    ont-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: underline;
+}
