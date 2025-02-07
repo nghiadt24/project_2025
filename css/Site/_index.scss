@@ -188,14 +188,8 @@
     align-items: start;
     gap: 16px;
     text-decoration: none;
+    width: 100%;
 }
-.GalleryCard .col-5 {
-    flex: 1;
-}
-.GalleryCard .col-8 {
-    flex: 2;
-}
-
 .GalleryCardTextWrap {
     display: flex;
     flex-direction: row;
