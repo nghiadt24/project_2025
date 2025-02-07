@@ -1,6 +1,7 @@
 // use a script tag or an external JS file
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger,EaselPlugin)
+    console.log("cai dit con me ao that day");
     // gsap code here!
     // Initialize a new Lenis instance for smooth scrolling
 const lenis = new Lenis();

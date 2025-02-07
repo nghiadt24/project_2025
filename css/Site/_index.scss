@@ -180,6 +180,7 @@
     flex-direction: row;
     justify-content: start;
     gap: 16px;
+    width: 100%;
 }
 .GalleryCard {
     display: flex;
@@ -198,6 +199,7 @@
 .GalleryCardImg {
     width: 100%;
     border-radius: 8px;
+    object-fit: cover;
 }
 .GalleryCardTitle {
     @include color-content-neutral-strong;
