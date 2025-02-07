@@ -449,9 +449,8 @@ html {
 .GalleryCardWrap {
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  gap: 16px;
   width: 100%;
+  gap: 24px;
 }
 
 .GalleryCard {
@@ -463,18 +462,29 @@ html {
   text-decoration: none;
 }
 
+.GalleryCard .col-5 {
+  flex: 1;
+}
+
+.GalleryCard .col-8 {
+  flex: 2;
+}
+
 .GalleryCardTextWrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .GalleryCardImg {
   width: 100%;
-  border-radius: 8px;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
+  border-radius: 8px;
 }
 
 .GalleryCardTitle {
