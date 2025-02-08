@@ -66,7 +66,7 @@
     @include AboutTitle;
 }
 .AboutDescription {
-    @include color-content-neutral-strong;
+    color: #BDBDBD;
     font-size: 24px;
     text-align: right;
     line-height: 40px;
