@@ -20,7 +20,6 @@ gsap.ticker.add((time) => {
 gsap.ticker.lagSmoothing(0);
 
 // HeroVideo
-const
 const ScaleEffect = gsap.fromTo('.HeroVideo',{
     scale: 0.8,
 },
